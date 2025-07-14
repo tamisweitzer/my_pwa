@@ -8,17 +8,11 @@
   <link href="./output.css" rel="stylesheet">
   <link rel="manifest" href="manifest.webmanifest">
   <script src="./app.js"></script>
+  <script src="./app-components.js"></script>
 </head>
 <body>
   <div class="page-wrapper">
-    <header class="p-4 bg-slate-700 text-slate-100 flex flex-row justify-between">
-      <h1><a href="/">MyPWA</a></h1>
-      <nav>
-        <a href="link1.html" class="ml-4">link1</a>
-        <a href="link2.html" class="ml-4">link2</a>
-        <a href="link3.html" class="ml-4">link3</a>
-      </nav>
-    </header>
+    <main-header></main-header>
 
     <main class="container py-12">
       <section class="px-4">
@@ -27,9 +21,7 @@
       </section>
     </main>
 
-    <footer class="p-4 bg-slate-700 text-slate-300">
-      <p>MyPWA</p>
-    </footer>
+    <main-footer></main-footer>
   </div>
 </body>
 </html>
