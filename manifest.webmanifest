@@ -1,0 +1,22 @@
+{
+  "id": "/",
+  "name": "My PWA",
+  "short_name": "MyPWA",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "white",
+  "description": "A test pwa app",
+  "icons": [
+    {
+      "src": "images/tropical_beach_scene.jpg",
+      "sizes": "640x640",
+      "type": "image/jpg"
+    },
+    {
+      "src": "images/tropical_beach_scene.png",
+      "sizes": "640x640",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

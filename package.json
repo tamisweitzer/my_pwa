@@ -1,0 +1,19 @@
+{
+  "name": "mypwa",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "watch": "npx @tailwindcss/cli -i ./input.css -o ./output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./input.css -o ./output.css"
+  },
+  "keywords": [
+    "learn pwa"
+  ],
+  "author": "Tami Sweitzer",
+  "license": "ISC",
+  "description": "This is a test app to learn PWA technology.",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
