@@ -2,8 +2,8 @@
   "id": "/",
   "name": "My PWA",
   "short_name": "MyPWA",
-  "start_url": ".",
-  "display": "standalone",
+  "start_url": "/",
+  "display": "fullscreen",
   "background_color": "white",
   "description": "A test pwa app",
   "icons": [
