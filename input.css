@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+
+p {
+  @apply mb-4;
+}
