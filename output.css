@@ -10,6 +10,7 @@
     --color-lime-700: oklch(53.2% 0.157 131.589);
     --color-slate-100: oklch(96.8% 0.007 247.896);
     --color-slate-300: oklch(86.9% 0.022 252.894);
+    --color-slate-700: oklch(37.2% 0.044 257.287);
     --spacing: 0.25rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
@@ -194,11 +195,8 @@
   .justify-between {
     justify-content: space-between;
   }
-  .bg-lime-700 {
-    background-color: var(--color-lime-700);
-  }
-  .bg-red-700 {
-    background-color: var(--color-red-700);
+  .bg-slate-700 {
+    background-color: var(--color-slate-700);
   }
   .p-4 {
     padding: calc(var(--spacing) * 4);
